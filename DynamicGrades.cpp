@@ -4,6 +4,7 @@ using namespace std;
 
 // Helper function that prints out the current array.
 void printArray(double* arr, int size) {
+    cout << fixed << setprecision(2);
     cout << "The sorted scores are: ";
     for (int i = 0; i < size; i++) {
         cout << arr[i];

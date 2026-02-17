@@ -33,4 +33,4 @@ int main() {
    The final valuue of ```alpha``` will remain 20 as the variable ```val``` in the function is a copy of ```alpha``` and not the same variable.
 
 5. What will be the final value of beta printed by the program? Why does its value change?
-   The final value of ```beta``` will be 30 because the ```processData``` function takes in the address of ```beta``` by using a pointer ```pts``` and updates the value stored at that address
+   The final value of ```beta``` will be 30 because the ```processData``` function takes in the address of ```beta``` by using a pointer ```pts``` and updates the value stored at that address.
